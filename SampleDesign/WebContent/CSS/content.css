@@ -1,0 +1,39 @@
+.leftDiv {
+	position: absolute;
+	margin: 1% 0 1% 1%;
+	width: 18%;
+	height: 97%;
+	1background-color: #6699FF;
+	background-color: rgb(164,259,228);
+	text-align: center;
+}
+.leftDiv h2 {
+	margin: 15px 0px -2px 0px;
+}
+
+.leftDiv div{
+	margin: 8px;
+	width: 80%;
+	height: 21px;
+	background-color: #33CCFF;
+	padding: 8px;
+}
+.mouseover {
+	font-size: 22px;
+	color: #FF3399;
+	cursor: pointer;
+	font-weight: bold;
+}
+.rightDiv {
+	position: absolute;
+	margin: 1% 0 1% 1%;
+	left: 19%;
+	width: 79%;
+	height: 97%;
+	1background-color: #66CCFF;
+	background-color: rgb(164,259,228);
+}
+.rightDiv .iframe {
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,79 @@
+.btn {
+	padding: 7px 10px;
+	margin: 4px 10px -4px 10px;
+}
+.queryFormDiv {
+	position: absolute;
+	left: 1%;
+	1width: 98%;
+	1height: 5%;
+	1border: 1px solid black;
+	overflow: hidden;
+	top: 10px;
+}
+.listTableDiv {
+	border: 1px solid black;
+	position: absolute;
+	top: 8%;
+	left: 1%;
+	width: 98%;
+	height: 80%;
+	overflow: auto;
+	1display: none;
+	background: rgb(164,259,228);
+}
+.listTableDiv table {
+	width: 100%;
+}
+.listTableDiv thead tr{
+	position:relative;     
+    top:expression(this.parentNode.parentNode.parentNode.scrollTop);  
+    z-index:10;  
+}
+.listTableDiv thead th, .tableStyle tbody td{
+	1border-left:1px solid #E6E6E6;
+    word-break:keep-all;
+	white-space:nowrap;
+}
+.listTableDiv thead th{
+	font-weight:bold;
+	padding-top:5px;
+	border-bottom: 1px solid black;
+}
+.even{
+	background-color: #3399FF;
+}
+.listTableDiv tbody td{
+	padding-top:4px;
+	height: 15px;
+}
+.operBtnDiv {
+	margin-top: 10px;
+	height: 6%;
+	1border: 1px solid #999999;
+	left: 1%;
+	width: 98%;
+	position: absolute;
+	top: 88%;
+	text-align: center;
+	padding: 1% 0 1% 0;
+}
+.contentDiv {
+	position: absolute;
+	top: 22%;
+	left: 27%;
+	width: 44%;
+	1height: 42%;
+	background-color: rgb(156,248,160);
+	text-align: center;
+	overflow: auto;
+}
+.contentDiv h3 {
+	margin: 15px 0px 5px 0px;
+}
+.rec_users_iframe {
+	width: 99%;
+	height: 99%;
+	border: 1px solid red;
+	background-color: rgb(164,259,228);
+}

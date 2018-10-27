@@ -1,0 +1,33 @@
+body {
+	background-color: #FFFFFF;
+	1background-color: rgb(206,235,154);
+	font-size: 18px;
+}
+input {
+	width: expression(this.type=="text" || this.type=="password"?"120px":"");
+	font-size: expression(this.type=="text" || this.type=="password"?"16px":"");
+}
+.btn {
+	padding: 7px 10px 7px 10px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: green;
+	border: 0px;
+	margin: 3px 5px;
+}
+.focus {
+	background-color: #FFFFCC;
+}
+.mouseoverBtn {
+	color: #FF3333;
+	1font-weight: bold;
+}
+.clickBtn {
+	color: red;
+}
+.hide {
+	display: none;
+}
+.clickTr {
+	background-color: #33CC99;
+}
